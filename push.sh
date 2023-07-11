@@ -26,6 +26,12 @@ string_split_example () {
 
 main() {
     # place stuff you want to run here
+    
+    if [[ $# -eq 0 ]]; then
+        help
+        exit 0
+    fi
+
     echo "hello world!"
     head=$1
     tail=("${@:2}")

@@ -1,6 +1,6 @@
-# Auto Notebook
+# Fast Wiki
 
-Automatically create a notebook with mdbooks.
+Create fast wiki with [mdBooks](https://github.com/rust-lang/mdBook)
 
 ## Requirements
 - Rust
